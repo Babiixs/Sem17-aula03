@@ -1,0 +1,7 @@
+def recomendar_sala(tipo_reunião,participantes):
+  tipo_reunião=["comum","executiva"]
+participantes=int(input("quantos participantes terão na sua reunião?"))
+tipo_sala=[{1:"sala pequena",2:"sala média",3:"sala grande"}]
+if participantes<=10:
+  print("sala pequena")
+  tipo_reunião=(input("qual o seu tipo de reunião comum ou executiva?":)
